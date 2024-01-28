@@ -36,27 +36,27 @@ function App() {
         <Routes>
           <Route path='/' element={<Layout />}>
             <Route index element={<Home />} />
-            <Route path='contact' element={<Contact />} />
-            <Route path='introduce' element={<Introduce />} />
-            <Route path='product' element={<Product />} />
-            <Route path='product/:id' element={<SingleProduct />} />
-            <Route path='blogs' element={<Blog />} />
-            <Route path='blog/:id' element={<SingleBlog />} />
-            <Route path='cart' element={<PrivateRoutes><Cart /></PrivateRoutes>} />
-            <Route path='my-orders' element={<PrivateRoutes><Orders /></PrivateRoutes>} />
-            <Route path='orders/:id' element={<PrivateRoutes><OrderDetail /></PrivateRoutes>} />
-            <Route path='my-profile' element={<PrivateRoutes><Profile /></PrivateRoutes>} />
-            <Route path='checkout' element={<PrivateRoutes><Checkout /></PrivateRoutes>} />
-            <Route path='wishlist' element={<PrivateRoutes><Wishlist /></PrivateRoutes>} />
-            <Route path='login' element={<OpenRoutes><Login /></OpenRoutes>} />
-            <Route path='forgot-password' element={<Forgotpassword />} />
-            <Route path='signup' element={<OpenRoutes><Signup /></OpenRoutes>} />
-            <Route path='reset-password/:token' element={<Resetpassword />} />
-            <Route path='change-password/' element={<ChangePassword />} />
-            <Route path='privacy-policy' element={<PrivacyPolicy />} />
-            <Route path='refund-policy' element={<RefundPolicy />} />
-            <Route path='shipping-policy' element={<ShippingPolicy />} />
-            <Route path='tern-conditions' element={<TernAndContions />} />
+            <Route path='/contact' element={<Contact />} />
+            <Route path='/introduce' element={<Introduce />} />
+            <Route path='/product' element={<Product />} />
+            <Route path='/product/:id' element={<SingleProduct />} />
+            <Route path='/blogs' element={<Blog />} />
+            <Route path='/blog/:id' element={<SingleBlog />} />
+            <Route path='/cart' element={<PrivateRoutes><Cart /></PrivateRoutes>} />
+            <Route path='/my-orders' element={<PrivateRoutes><Orders /></PrivateRoutes>} />
+            <Route path='/orders/:id' element={<PrivateRoutes><OrderDetail /></PrivateRoutes>} />
+            <Route path='/my-profile' element={<PrivateRoutes><Profile /></PrivateRoutes>} />
+            <Route path='/checkout' element={<PrivateRoutes><Checkout /></PrivateRoutes>} />
+            <Route path='/wishlist' element={<PrivateRoutes><Wishlist /></PrivateRoutes>} />
+            <Route path='/login' element={<OpenRoutes><Login /></OpenRoutes>} />
+            <Route path='/forgot-password' element={<Forgotpassword />} />
+            <Route path='/signup' element={<OpenRoutes><Signup /></OpenRoutes>} />
+            <Route path='/reset-password/:token' element={<Resetpassword />} />
+            <Route path='/change-password/' element={<ChangePassword />} />
+            <Route path='/privacy-policy' element={<PrivacyPolicy />} />
+            <Route path='/refund-policy' element={<RefundPolicy />} />
+            <Route path='/shipping-policy' element={<ShippingPolicy />} />
+            <Route path='/tern-conditions' element={<TernAndContions />} />
           </Route>
         </Routes>
       </BrowserRouter>
