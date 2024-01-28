@@ -1,4 +1,4 @@
-export const base_url = "https://techarbor-api.onrender.com";
+export const base_url = "https://techarbor-api.onrender.com/api/";
 
 const getTokenFromLocalStorage = localStorage.getItem("customer")
   ? JSON.parse(localStorage.getItem("customer"))

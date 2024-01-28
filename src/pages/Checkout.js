@@ -137,7 +137,7 @@ const Checkout = () => {
         return;
       }
       const result = await axios.post(
-        "http://localhost:5000/api/user/order/checkout",
+        "https://techarbor-api.onrender.com/api/user/order/checkout",
         { amount: totalAmount },
         config
       );
@@ -161,7 +161,7 @@ const Checkout = () => {
           };
 
           const result = await axios.post(
-            "http://localhost:5000/api/user/order/paymentVerification",
+            "https://techarbor-api.onrender.com/api/user/order/paymentVerification",
             data,
             config
           );
